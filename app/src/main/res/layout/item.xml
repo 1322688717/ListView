@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="实验ID"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_below="@+id/tv_id"
+            android:layout_marginTop="10dp"
+            android:text="样品"/>
+
+        <TextView
+            android:id="@+id/shuju_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="数据1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_below="@+id/tv_id"
+            android:layout_marginTop="10dp"
+            android:text="溶剂"/>
+
+        <TextView
+            android:id="@+id/shuju_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="数据2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_below="@+id/tv_id"
+            android:layout_marginTop="10dp"
+            android:text="温度"/>
+
+        <TextView
+            android:id="@+id/shuju_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="数据3"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_below="@+id/tv_id"
+            android:layout_marginTop="10dp"
+            android:text="实验序列"/>
+
+        <TextView
+            android:id="@+id/shuju_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="数据4"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_below="@+id/tv_id"
+            android:layout_marginTop="10dp"
+            android:text="扫描次数"/>
+
+        <TextView
+            android:id="@+id/shuju_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="数据5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_below="@+id/tv_id"
+            android:layout_marginTop="10dp"
+            android:text="路径"/>
+
+        <TextView
+            android:id="@+id/shuju_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="数据6"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+</LinearLayout>
